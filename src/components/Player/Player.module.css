@@ -1,0 +1,10 @@
+.Player {
+  color: white;
+  /* box-sizing: border-box; */
+  /* border-bottom: 5px solid white; */
+}
+.Player td {
+  /* border-bottom: 4px solid white; */
+  margin: 0 5px;
+  padding: 10px;
+}

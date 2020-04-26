@@ -1,0 +1,15 @@
+.Background {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* background: rgba(0, 0, 0, 0.5); */
+  z-index: -9;
+  /* background-size: cover; */
+  background-position: center;
+}
+.Background img {
+  height: 100%;
+  width: 100%;
+}
