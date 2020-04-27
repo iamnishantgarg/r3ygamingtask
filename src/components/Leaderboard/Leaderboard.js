@@ -2,8 +2,16 @@ import React from "react";
 import classes from "./Leaderboard.module.css";
 // import { CSSTransition } from "react-transition-group";
 // import { Fade } from "reactstrap";
+import axios from "axios";
 import Player from "../Player/Player";
 // import { table, Container } from "reactstrap";
+
+// const getPlayers = async () => {
+//   const res = await fetch("https://r3y.herokuapp.com/getPlayers");
+//   res.json();
+//   console.log(res.body);
+// };
+
 export default function Leaderboard() {
   const players = [
     { Teamno: 1, username: "NishantA", kills: 43, rank: 1 },
@@ -19,9 +27,11 @@ export default function Leaderboard() {
     { Teamno: 211, username: "NishantC", kills: 33, rank: 23 },
     { Teamno: 12, username: "NishantD", kills: 13, rank: 22 },
   ];
+  // console.log(getPlayers());
+  // getPlayers();
 
-  const playerRows = players.map((play) => {
-    return <Player player={play} key={play.Teamno} />;
+  const playerRows = players.map((play, ind) => {
+    return <Player player={play} key={ind} />;
   });
   return (
     <div className={classes.Leaderboard}>
