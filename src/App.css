@@ -1,5 +1,26 @@
 .App {
   text-align: center;
+  font-family: "Bangers", cursive;
+  letter-spacing: 3px;
+}
+table {
+  border-collapse: collapse;
+  width: 900px;
+  height: 100%;
+}
+thead {
+  background-color: rgb(204, 119, 34);
+  color: black;
+}
+tr {
+  box-sizing: border-box;
+  border-bottom: 4px solid transparent;
+  transition: 0.06s ease-in-out;
+}
+tr:hover {
+  /* box-sizing: border-box; */
+  border-bottom: 4px solid rgb(204, 119, 34);
+  /* background-color: red; */
 }
 
 .App-logo {
