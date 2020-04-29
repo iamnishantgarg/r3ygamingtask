@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Player.module.css";
-export default function Player(props) {
+export default Player = (props) => {
   return (
     <tr className={classes.Player}>
       <td>{props.player.Teamno}</td>
@@ -9,4 +9,4 @@ export default function Player(props) {
       <td>{props.player.rank}</td>
     </tr>
   );
-}
+};
