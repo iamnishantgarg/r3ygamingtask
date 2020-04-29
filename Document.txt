@@ -1,0 +1,13 @@
+Redux:
+Redux is basically used to create a global store (a global state) for the react app so that any event 
+int the react app in any component leads to state change,we can change the state globally.
+And all the component dependent of the state can render accordingly.
+Redux is basically a state management tool.
+
+
+
+
+Webpack:
+I have not used Webpack just know that it is use to bundle all the module and dependecies into one file
+So if any cdn is used or any other module it can be bundled into one file so that it dont lead to unwanted 
+break down of app.
