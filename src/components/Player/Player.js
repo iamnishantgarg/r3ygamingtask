@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Player.module.css";
-export default Player = (props) => {
+const Player = (props) => {
   return (
     <tr className={classes.Player}>
       <td>{props.player.Teamno}</td>
@@ -10,3 +10,4 @@ export default Player = (props) => {
     </tr>
   );
 };
+export default Player;
